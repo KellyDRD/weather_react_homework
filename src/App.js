@@ -1,7 +1,7 @@
 import "./App.css";
 import WeatherSearch from "./WeatherSearch";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="App">
@@ -21,5 +21,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
