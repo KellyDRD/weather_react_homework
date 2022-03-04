@@ -5,8 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather Search App</h1>
         <WeatherSearch />
+
         <footer>
           <a
             href="https://github.com/KellyDRD/weather_react_homework"

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./WeatherSearch.css";
 import axios from "axios";
 
 export default function WeatherSearch(props) {
