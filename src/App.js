@@ -7,7 +7,7 @@ export default function App() {
       <div className="App">
         <h1>Weather Search App</h1>
         <WeatherSearch />
-        <small>
+        <footer>
           <a
             href="https://github.com/KellyDRD/weather_react_homework"
             target="_blank"
@@ -16,7 +16,7 @@ export default function App() {
             open source code
           </a>
           , by Kelly Roan
-        </small>
+        </footer>
       </div>
     </div>
   );
