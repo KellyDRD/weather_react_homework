@@ -30,17 +30,13 @@ export default function Weather() {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <div className="clearfix">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Mostly Cloudly"
-              className="float-left"
-            />
-            <div className="float-left">
-              <span className="temperature">6</span>
-              <span className="unit">°C</span>
-            </div>
-          </div>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+            alt="Mostly Cloudly"
+          />
+
+          <span className="temperature">6</span>
+          <span className="unit">°C</span>
         </div>
         <div className="col-6">
           <ul>
